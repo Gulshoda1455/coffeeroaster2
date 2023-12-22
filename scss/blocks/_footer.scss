@@ -1,0 +1,41 @@
+.site-footer {
+    padding: 44px 0 57px 0;
+}
+
+.footer {
+    padding: 53px 85px 51px;
+    background-color: #2C343E;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-logo-link {
+    display: inline-block;
+    margin-right: 102px;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    margin-right: 330px;
+}
+.footer-item {
+
+    & + & {
+        margin-left: 33px;
+    }
+}
+.footer-item-link{
+    color: #83888F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px; /* 125% */
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+    transition: color 0.5s linear;
+    
+    &:hover {
+color: black;
+    }
+}
