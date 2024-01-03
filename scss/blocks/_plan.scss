@@ -1,6 +1,6 @@
 
-.plan {
-padding: 200px 0;
+.plan-section {
+padding: 200px 165px;
 }
 .plan-strong{
     margin-bottom: 80px;
@@ -11,10 +11,7 @@ padding: 200px 0;
     font-weight: 900;
     line-height: 32px; 
 }
-.plan-line{
-    stroke-width: 2px;
-    stroke: #FDD6BA;
-}
+
 .plan-list {
     display: flex;
     margin-top: 80px;
@@ -61,4 +58,81 @@ padding: 200px 0;
     line-height: 25px; 
     
     
+}
+@media only screen and (max-width:1080px){
+    .plan-item{
+        max-width: 223px;
+    }
+}
+@media only screen and (max-width:1000px){
+
+    .plan-section {
+        padding: 144px ;
+        }
+        .plan-strong{
+            margin-bottom: 55px;
+           
+        }
+        .plan-list {
+            justify-content: space-between;
+        }
+      
+    
+        .plan-item {
+        
+        
+            & + &{
+                margin-left: 50px;
+            }
+        }
+        
+        .plan-item-title {
+            margin-bottom: 38px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .plan-item-text {
+            margin-bottom: 44px;
+            font-size: 15px;
+            line-height: 25px; 
+        }
+         
+        
+}
+@media only screen and (max-width:600px){
+    
+    .plan-section {
+        padding: 120px 0;
+        }
+        .plan{
+            text-align: center;
+        }
+        .plan-strong{
+            text-align: center; 
+        }
+        .plan-list {
+            flex-direction: column;
+         } 
+        
+        .plan-item {
+            max-width: 100%;
+           text-align: center;
+        
+        }
+        
+        .plan-item-title {
+            margin-top: 24px;
+            margin-bottom: 28px;
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .plan-item-text {
+            margin-bottom: 56px;
+            font-size: 15px;
+            line-height: 25px; 
+        }
+        .plan-wrapper{
+            text-align: center;
+        }
+      
 }

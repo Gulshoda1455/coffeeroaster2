@@ -1,0 +1,38 @@
+.quality-section {
+   
+    
+}
+
+.quality {
+    display: flex;
+    align-items: center;
+    padding: 100px 0 100px 85px;
+   background-image: url("../images/quality-bg.png");
+   background-repeat: no-repeat;
+   background-position: center;
+
+  
+}
+.quality-content {
+    width: 540px;
+}
+.quality-content-wrapper{
+    width: 517px;
+}
+.quality-title {
+    margin-bottom: 32px;
+    color: #FEFCF7;
+    font-family: Fraunces,serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+.quality-text {
+    color: #FEFCF7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+}

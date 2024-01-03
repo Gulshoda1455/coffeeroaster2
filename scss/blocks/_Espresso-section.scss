@@ -1,10 +1,7 @@
 
 .Espresso {
-    padding: 200px 0 200px;
-    background-image: url("../../images/collection.png");
-    background-repeat: no-repeat;
-    background-size: 94%;
-    background-position-y: 71px;
+    padding: 200px 0 ;
+  
 }
 .Espresso-list {
     
@@ -36,4 +33,40 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px; 
+}
+
+@media only screen and (max-width:1000px){
+  .Espresso-list {
+   flex-direction: column;
+   text-align: center;
+   }
+  .Espresso-item{
+    display: flex;
+    align-items: center;
+   
+    
+  }
+  .Espresso-content{
+   
+  }
+}
+@media only screen and (max-width:400px){
+  .Espresso {
+    padding: 120px 0 ;
+  
+}
+
+.Espresso-item {
+    width: 282px; 
+  
+
+}
+.Espresso-title {
+    margin-top: 24px;
+   margin-bottom: 10px;
+    
+}
+.Espresso-text {
+   margin-bottom: 48px;
+}
 }
